@@ -1,0 +1,6 @@
+#!/bin/sh
+
+repo-add x86_64/19Doors_repo.db.tar.gz x86_64/*.zst
+git add *
+git commit -m "DONE"
+git push -u origin main
